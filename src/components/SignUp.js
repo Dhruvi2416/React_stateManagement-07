@@ -65,7 +65,8 @@ const SignUp = () => {
 
   return (
     <>
-      <div className="container row">
+      <div className="container ">
+        <div className="row">
         <div className="details  col-12 col-sm-10 col-md-10 col-lg-8 col-xl-8">
           <h1>SignUp</h1>
 
@@ -159,13 +160,14 @@ const SignUp = () => {
                 Reset
               </button>
             </div>
-          </form>
+          </form> 
         </div>
       
         <div className="signUpPic  col-sm col-md col-lg col-xl">
           <img src={picture} />
         </div>
       </div>
+</div>
     </>
   );
 };

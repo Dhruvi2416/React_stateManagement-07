@@ -38,17 +38,19 @@ const Home = () => {
         </Link>
       </div>
 
-      <div className="container row">
-        <div className="profilePic col-12 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+      <div className="container">
+        <div className="row">
+        <div className="profilePic col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
           {/* {state.photo?<img src={URL.createObjectURL(state.photo)}/>:null} */}
           <img src={image} />
         </div>
 
-        <div className="userDetails  col-sm-5 col-md-6 col-lg-6 col-xl-6">
+        <div className="userDetails  col-sm-6 col-md-6 col-lg-6 col-xl-6">
           <h3>Hello, {state.name}</h3>
-          <h5>You are registered with the email id:</h5> {state.email}
-          <h5>Phone Number: </h5> {state.phoneNo}
+          <h5>You are registered with the email id:</h5> <p>{state.email}</p>
+          <h5>Phone Number: </h5> <p>{state.phoneNo}</p>
         </div>
+      </div>
       </div>
     </div>
   );
