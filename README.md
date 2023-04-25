@@ -1,4 +1,4 @@
-# React-Redux State MAnagement
+# React-Redux State Management
 
 This project is made with the help of **Formik** for form handling, **Yup** for form validation, **Redux** for state management and **redux-storage** for making redux state persisting over page refresh.
 
