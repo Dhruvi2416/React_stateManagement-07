@@ -1,12 +1,10 @@
-*{
+* {
   overflow-x: hidden;
 }
 .container {
-
   padding-top: 30px;
-  
-  display: flex;
 
+  display: flex;
 }
 /* SignUp */
 
@@ -15,18 +13,17 @@ h1 {
 }
 
 .inputDetails {
-width: 70%;
-flex-direction: column;
-gap:7px;
-}
-.details{
+  width: 70%;
   flex-direction: column;
-  gap:3px;
+  gap: 7px;
 }
-
+.details {
+  flex-direction: column;
+  gap: 3px;
+}
 
 .photo {
- justify-content: center;
+  justify-content: center;
 }
 
 .photoUpload {
@@ -43,9 +40,6 @@ gap:7px;
   display: none;
 }
 
-
-
-
 .inputDetails input {
   padding: 3%;
   width: 90%;
@@ -53,16 +47,16 @@ gap:7px;
   border-radius: 4px;
   background-color: #fcecd4;
 }
-.buttons{
+.buttons {
   margin-top: 10%;
-  gap:17px;
-  width:70%;
+  gap: 17px;
+  width: 70%;
   justify-content: flex-start;
 }
 
 .buttons button {
-  width:40%;
- 
+  width: 40%;
+
   border-radius: 6px;
   padding: 5px;
   border: none;
@@ -79,11 +73,11 @@ gap:7px;
 }
 
 .signUpPic {
-   display: flex;
-   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-.signUpPic img{
-  width:100%;
+.signUpPic img {
+  width: 100%;
   object-fit: cover;
 }
 
@@ -112,17 +106,13 @@ gap:7px;
   width: 250px;
 }
 
-
-
 .userDetails h3,
 h4 {
- 
   margin-top: 20px;
   color: #1087fc;
 }
 
 .userDetails h5 {
-  
   width: 300px;
   margin-top: 20px;
 }
