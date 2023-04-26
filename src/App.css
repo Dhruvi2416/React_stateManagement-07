@@ -2,11 +2,11 @@
   overflow-x: hidden;
 }
 .container {
-  padding-left: 60px;
+
   padding-top: 30px;
-  margin-right: 0px;
+  
   display: flex;
-  flex-wrap: wrap;
+
 }
 /* SignUp */
 
@@ -14,13 +14,24 @@ h1 {
   font-size: 64px;
 }
 
-.photo {
-  margin-left: 150px;
+.inputDetails {
+width: 70%;
+flex-direction: column;
+gap:7px;
+}
+.details{
+  flex-direction: column;
+  gap:3px;
 }
 
-#photoUpload {
+
+.photo {
+ justify-content: center;
+}
+
+.photoUpload {
   color: #1087fc;
-  margin-left: 150px;
+  justify-content: center;
 }
 
 .form-error {
@@ -31,24 +42,27 @@ h1 {
 #disable {
   display: none;
 }
-.inputDetails {
-  margin-top: 30px;
-}
-.inputDetails h6 {
-  padding-top: 15px;
-}
+
+
+
 
 .inputDetails input {
-  padding: 7px;
-  width: 430px;
+  padding: 3%;
+  width: 90%;
   border: 1px #e4e4de solid;
   border-radius: 4px;
   background-color: #fcecd4;
 }
+.buttons{
+  margin-top: 10%;
+  gap:17px;
+  width:70%;
+  justify-content: flex-start;
+}
 
 .buttons button {
-  width:72px;
-  margin: 30px 30px 10px 0px;
+  width:40%;
+ 
   border-radius: 6px;
   padding: 5px;
   border: none;
@@ -65,9 +79,12 @@ h1 {
 }
 
 .signUpPic {
-   
    display: flex;
- 
+   flex-wrap: wrap;
+}
+.signUpPic img{
+  width:100%;
+  object-fit: cover;
 }
 
 /* Home */

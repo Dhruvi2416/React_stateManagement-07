@@ -5,11 +5,9 @@ This project is made with the help of **Formik** for form handling, **Yup** for 
 To run this project:
 ## Steps:
 1. git clone https://github.com/Dhruvi2416/React_stateManagement-07.git in your terminal.
-2. Firstly in package.json delete the dependancy of **redux-storage** and **redux-storage-engine-localstorage**
-3. **npm i** to install node-modules (package manager)
-4. Then **npm install --save redux-storage --force**
-5. Followed by **npm install --save redux-storage-engine-localstorage --force**
-6. After this run you command to execute your project i.e **npm start**
+2. **npm i --force** to install node-modules (package manager)
+
+3. After this run you command to execute your project i.e **npm start**
 This will run the project in localhost:3000
 
 # Screenshots:

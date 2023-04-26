@@ -66,15 +66,15 @@ const SignUp = () => {
   return (
     <>
       <div className="container ">
-        <div className="row">
-        <div className="details  col-12 col-sm-10 col-md-10 col-lg-8 col-xl-8">
+        <div className="row ">
+        <div className="details d-flex  col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <h1>SignUp</h1>
 
           {/* formik's handleSubmit will handle the submits after validation */}
-          <form onSubmit={formik.handleSubmit}>
-            <div className="inputDetails">
+          <form  onSubmit={formik.handleSubmit}>
+            <div className="inputDetails d-flex">
               {/* clicks the file upload of input type file */}
-              <div className="photo" onClick={() => fileUpload.current.click()}>
+              <div className="photo  d-flex" onClick={() => fileUpload.current.click()}>
                 Photo+
               </div>
               {/* ref={fileUpload} gives its ref to photo so tha photo can access all actions of input  */}
@@ -91,7 +91,7 @@ const SignUp = () => {
               {/* if photo is uploaded shows photo uploaded */}
               {/* link will change on each render so better to mention photo uploaded */}
               {formik.values.photo != "" ? (
-                <p id="photoUpload">Photo Uploaded</p>
+                <p className="photoUpload d-flex">Photo Uploaded</p>
               ) : null}
               {/* if errors and touched then only shows errors */}
               {formik.errors.photo ? (
@@ -163,7 +163,7 @@ const SignUp = () => {
           </form> 
         </div>
       
-        <div className="signUpPic  col-sm col-md col-lg col-xl">
+        <div className="signUpPic  col">
           <img src={picture} />
         </div>
       </div>
