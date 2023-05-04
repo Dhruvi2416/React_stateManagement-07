@@ -130,7 +130,7 @@ const SignUp = () => {
               ) : null}
               <h6>Password</h6>
               <input
-                type="text"
+                type="password"
                 name="password"
                 value={formik.values.password}
                 onChange={formik.handleChange}
@@ -140,7 +140,7 @@ const SignUp = () => {
               ) : null}
               <h6>Confirm Password</h6>
               <input
-                type="text"
+                type="password"
                 name="confirmPassword"
                 value={formik.values.confirmPassword}
                 onChange={formik.handleChange}
