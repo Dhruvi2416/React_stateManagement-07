@@ -1,0 +1,118 @@
+* {
+  overflow-x: hidden;
+}
+.container {
+  padding-top: 30px;
+
+  display: flex;
+}
+/* SignUp */
+
+h1 {
+  font-size: 64px;
+}
+
+.inputDetails {
+  width: 70%;
+  flex-direction: column;
+  gap: 7px;
+}
+.details {
+  flex-direction: column;
+  gap: 3px;
+}
+
+.photo {
+  justify-content: center;
+}
+
+.photoUpload {
+  color: #1087fc;
+  justify-content: center;
+}
+
+.form-error {
+  margin-top: 3px;
+  color: red;
+}
+
+#disable {
+  display: none;
+}
+
+.inputDetails input {
+  padding: 3%;
+  width: 90%;
+  border: 1px #e4e4de solid;
+  border-radius: 4px;
+  background-color: #fcecd4;
+}
+.buttons {
+  margin-top: 10%;
+  gap: 17px;
+  width: 70%;
+  justify-content: flex-start;
+}
+
+.buttons button {
+  width: 40%;
+
+  border-radius: 6px;
+  padding: 5px;
+  border: none;
+}
+
+#submit {
+  background-color: #1087fc;
+  color: white;
+}
+
+#reset {
+  background-color: #de4152;
+  color: white;
+}
+
+.signUpPic {
+  display: flex;
+  flex-wrap: wrap;
+}
+.signUpPic img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Home */
+.home {
+  width: 100vw !important;
+}
+.logOutBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.logOutBtn button {
+  width: 72px;
+  border-radius: 6px;
+  padding: 5px;
+  border: none;
+  background-color: #de4152;
+  color: white;
+}
+
+.profilePic img {
+  margin-left: -10px;
+  height: 250px;
+  width: 250px;
+}
+
+.userDetails h3,
+h4 {
+  margin-top: 20px;
+  color: #1087fc;
+}
+
+.userDetails h5 {
+  width: 300px;
+  margin-top: 20px;
+}
